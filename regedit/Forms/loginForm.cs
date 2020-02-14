@@ -22,7 +22,7 @@ namespace IndigoSoftware.Forms
     {
         //
         private readonly MaterialSkinManager materialSkinManager; // переменная для скина
-        regeditPO fav = new regeditPO(); // fav. использование функций со следующей формы
+        mainForm fav = new mainForm(); // fav. использование функций со следующей формы
         //
 
         public loginForm()
@@ -41,7 +41,7 @@ namespace IndigoSoftware.Forms
         {
             versionLbl.Text = Application.ProductVersion.ToString();
             //
-            regeditPO nextForm = new regeditPO();
+            mainForm nextForm = new mainForm();
             // 
             nextForm.regeditPO_Load(sender, e);
         }
@@ -50,7 +50,7 @@ namespace IndigoSoftware.Forms
         {
             if (oznRadBut.Checked)
             {
-                regeditPO dal = new regeditPO();
+                mainForm dal = new mainForm();
                 this.Hide();
                 dal.Show();
             }

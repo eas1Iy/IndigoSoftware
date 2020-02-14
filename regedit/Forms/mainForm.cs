@@ -33,7 +33,7 @@ namespace regedit
     }
 
 
-    public partial class regeditPO : MaterialForm
+    public partial class mainForm : MaterialForm
     {
 
         //
@@ -48,7 +48,7 @@ namespace regedit
         //
         static extern uint SHEmptyRecycleBin(IntPtr hwnd, string pszRootPath, RecycleFlags dwFlags);
 
-        public regeditPO()                                                                                   
+        public mainForm()                                                                                   
         {
             // загрузка
             InitializeComponent();
@@ -536,6 +536,7 @@ namespace regedit
             try
             {
                 materialSkinManager.ColorScheme = new ColorScheme(Primary.Red600, Primary.Red600, Primary.Grey50, Accent.Red400, TextShade.WHITE);
+                logo.Image = global::IndigoSoftware.Properties.Resources.backImageRED;
                 Settings.Default["color"] = "RED";
                 Settings.Default.Save();
             }
@@ -550,6 +551,7 @@ namespace regedit
             try
             {
                 materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green600, Primary.Grey50, Accent.Green200, TextShade.WHITE);
+                logo.Image = global::IndigoSoftware.Properties.Resources.backImageGREEN;
                 Settings.Default["color"] = "GREEN";
                 Settings.Default.Save();
             }
@@ -566,6 +568,7 @@ namespace regedit
             {
                 materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
                 materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo600, Primary.Indigo600, Primary.Grey50, Accent.Indigo400, TextShade.WHITE);
+                logo.Image = global::IndigoSoftware.Properties.Resources.backImage;
                 Settings.Default["mode"] = "LIGHT";
                 Settings.Default["color"] = "DEFAULT";
                 Settings.Default.Save();

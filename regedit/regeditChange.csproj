@@ -97,11 +97,11 @@
     <Compile Include="Forms\loginForm.Designer.cs">
       <DependentUpon>loginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\regeditPO.cs">
+    <Compile Include="Forms\mainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\regeditPO.Designer.cs">
-      <DependentUpon>regeditPO.cs</DependentUpon>
+    <Compile Include="Forms\mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Configs\Program.cs" />
     <Compile Include="frmOK.cs">
@@ -123,8 +123,8 @@
     <EmbeddedResource Include="Forms\loginForm.resx">
       <DependentUpon>loginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\regeditPO.resx">
-      <DependentUpon>regeditPO.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmOK.resx">
       <DependentUpon>frmOK.cs</DependentUpon>
@@ -160,6 +160,8 @@
   <ItemGroup>
     <Content Include="icon.ico" />
     <None Include="Resources\backImage.png" />
+    <None Include="Resources\backImageRED.png" />
+    <None Include="Resources\backImageGREEN.png" />
     <Content Include="Resources\ez.ico" />
     <Content Include="Resources\icon.ico" />
     <None Include="Resources\icon.png" />
