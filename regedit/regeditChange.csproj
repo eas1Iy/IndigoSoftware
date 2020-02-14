@@ -159,6 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\backImage.png" />
     <Content Include="Resources\ez.ico" />
     <Content Include="Resources\icon.ico" />
     <None Include="Resources\icon.png" />

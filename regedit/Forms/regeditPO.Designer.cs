@@ -79,12 +79,14 @@
             this.настройкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.materialTabControl1.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.materialContextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -273,6 +275,7 @@
             this.clearCache.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.clearCache.AutoSize = true;
             this.clearCache.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.clearCache.BackColor = System.Drawing.Color.Transparent;
             this.clearCache.Depth = 0;
             this.clearCache.Icon = null;
             this.clearCache.Location = new System.Drawing.Point(331, 183);
@@ -283,7 +286,7 @@
             this.clearCache.Size = new System.Drawing.Size(128, 36);
             this.clearCache.TabIndex = 5;
             this.clearCache.Text = "Очистить кэш";
-            this.clearCache.UseVisualStyleBackColor = true;
+            this.clearCache.UseVisualStyleBackColor = false;
             this.clearCache.Visible = false;
             this.clearCache.Click += new System.EventHandler(this.materialFlatButton1_Click);
             // 
@@ -306,6 +309,7 @@
             // 
             this.edge.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.edge.AutoSize = true;
+            this.edge.BackColor = System.Drawing.Color.Transparent;
             this.edge.Depth = 0;
             this.edge.Font = new System.Drawing.Font("Roboto", 10F);
             this.edge.Location = new System.Drawing.Point(331, 147);
@@ -317,13 +321,14 @@
             this.edge.Size = new System.Drawing.Size(60, 30);
             this.edge.TabIndex = 3;
             this.edge.Text = "Edge";
-            this.edge.UseVisualStyleBackColor = true;
+            this.edge.UseVisualStyleBackColor = false;
             this.edge.Visible = false;
             // 
             // google
             // 
             this.google.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.google.AutoSize = true;
+            this.google.BackColor = System.Drawing.Color.Transparent;
             this.google.Depth = 0;
             this.google.Font = new System.Drawing.Font("Roboto", 10F);
             this.google.Location = new System.Drawing.Point(331, 108);
@@ -335,13 +340,14 @@
             this.google.Size = new System.Drawing.Size(125, 30);
             this.google.TabIndex = 2;
             this.google.Text = "Google Chrome";
-            this.google.UseVisualStyleBackColor = true;
+            this.google.UseVisualStyleBackColor = false;
             this.google.Visible = false;
             // 
             // yandex
             // 
             this.yandex.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.yandex.AutoSize = true;
+            this.yandex.BackColor = System.Drawing.Color.Transparent;
             this.yandex.Depth = 0;
             this.yandex.Font = new System.Drawing.Font("Roboto", 10F);
             this.yandex.Location = new System.Drawing.Point(331, 69);
@@ -353,7 +359,7 @@
             this.yandex.Size = new System.Drawing.Size(74, 30);
             this.yandex.TabIndex = 1;
             this.yandex.Text = "Yandex";
-            this.yandex.UseVisualStyleBackColor = true;
+            this.yandex.UseVisualStyleBackColor = false;
             this.yandex.Visible = false;
             // 
             // tabPage1
@@ -513,6 +519,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.White;
+            this.tabPage3.Controls.Add(this.pictureBox2);
             this.tabPage3.Controls.Add(this.goSiteButt);
             this.tabPage3.Controls.Add(this.updateButt);
             this.tabPage3.Controls.Add(this.goVkButt);
@@ -808,6 +815,18 @@
             this.label2.TabIndex = 18;
             this.label2.Text = "IndigoSoftware - Лучшее для вашего Ноутбука";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::IndigoSoftware.Properties.Resources.backImage;
+            this.pictureBox2.Location = new System.Drawing.Point(-17, 185);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(180, 136);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
             // regeditPO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -836,6 +855,7 @@
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.materialContextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -893,6 +913,7 @@
         private System.Windows.Forms.ToolStripMenuItem настройкиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
