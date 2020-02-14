@@ -160,7 +160,7 @@
             this.downloandsFiles.MouseState = MaterialSkin.MouseState.HOVER;
             this.downloandsFiles.Name = "downloandsFiles";
             this.downloandsFiles.Ripple = true;
-            this.downloandsFiles.Size = new System.Drawing.Size(87, 30);
+            this.downloandsFiles.Size = new System.Drawing.Size(94, 30);
             this.downloandsFiles.TabIndex = 16;
             this.downloandsFiles.TabStop = true;
             this.downloandsFiles.Text = "Загрузки";
@@ -176,7 +176,7 @@
             this.clearLbl.Location = new System.Drawing.Point(16, 45);
             this.clearLbl.MouseState = MaterialSkin.MouseState.HOVER;
             this.clearLbl.Name = "clearLbl";
-            this.clearLbl.Size = new System.Drawing.Size(179, 19);
+            this.clearLbl.Size = new System.Drawing.Size(201, 22);
             this.clearLbl.TabIndex = 13;
             this.clearLbl.Text = "Выберите что очистить:";
             this.clearLbl.Visible = false;
@@ -192,7 +192,7 @@
             this.clearWinButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.clearWinButton.Name = "clearWinButton";
             this.clearWinButton.Primary = false;
-            this.clearWinButton.Size = new System.Drawing.Size(94, 36);
+            this.clearWinButton.Size = new System.Drawing.Size(102, 36);
             this.clearWinButton.TabIndex = 12;
             this.clearWinButton.Text = "Очистить";
             this.clearWinButton.UseVisualStyleBackColor = true;
@@ -210,7 +210,7 @@
             this.corzinaFiles.MouseState = MaterialSkin.MouseState.HOVER;
             this.corzinaFiles.Name = "corzinaFiles";
             this.corzinaFiles.Ripple = true;
-            this.corzinaFiles.Size = new System.Drawing.Size(84, 30);
+            this.corzinaFiles.Size = new System.Drawing.Size(90, 30);
             this.corzinaFiles.TabIndex = 9;
             this.corzinaFiles.TabStop = true;
             this.corzinaFiles.Text = "Корзина";
@@ -228,7 +228,7 @@
             this.tempFiles.MouseState = MaterialSkin.MouseState.HOVER;
             this.tempFiles.Name = "tempFiles";
             this.tempFiles.Ripple = true;
-            this.tempFiles.Size = new System.Drawing.Size(152, 30);
+            this.tempFiles.Size = new System.Drawing.Size(166, 30);
             this.tempFiles.TabIndex = 8;
             this.tempFiles.TabStop = true;
             this.tempFiles.Text = "Временные файлы";
@@ -245,7 +245,7 @@
             this.clearWin10.MouseState = MaterialSkin.MouseState.HOVER;
             this.clearWin10.Name = "clearWin10";
             this.clearWin10.Primary = true;
-            this.clearWin10.Size = new System.Drawing.Size(172, 36);
+            this.clearWin10.Size = new System.Drawing.Size(188, 36);
             this.clearWin10.TabIndex = 7;
             this.clearWin10.Text = "Очистка Windows 10";
             this.clearWin10.UseVisualStyleBackColor = true;
@@ -262,7 +262,7 @@
             this.cacheBrow.MouseState = MaterialSkin.MouseState.HOVER;
             this.cacheBrow.Name = "cacheBrow";
             this.cacheBrow.Primary = true;
-            this.cacheBrow.Size = new System.Drawing.Size(201, 36);
+            this.cacheBrow.Size = new System.Drawing.Size(220, 36);
             this.cacheBrow.TabIndex = 6;
             this.cacheBrow.Text = "Очистка кэша браузера";
             this.cacheBrow.UseVisualStyleBackColor = true;
@@ -280,7 +280,7 @@
             this.clearCache.MouseState = MaterialSkin.MouseState.HOVER;
             this.clearCache.Name = "clearCache";
             this.clearCache.Primary = false;
-            this.clearCache.Size = new System.Drawing.Size(128, 36);
+            this.clearCache.Size = new System.Drawing.Size(140, 36);
             this.clearCache.TabIndex = 5;
             this.clearCache.Text = "Очистить кэш";
             this.clearCache.UseVisualStyleBackColor = true;
@@ -297,7 +297,7 @@
             this.browserLbl.Location = new System.Drawing.Point(334, 45);
             this.browserLbl.MouseState = MaterialSkin.MouseState.HOVER;
             this.browserLbl.Name = "browserLbl";
-            this.browserLbl.Size = new System.Drawing.Size(141, 19);
+            this.browserLbl.Size = new System.Drawing.Size(161, 22);
             this.browserLbl.TabIndex = 4;
             this.browserLbl.Text = "Выберите браузер:";
             this.browserLbl.Visible = false;
@@ -308,13 +308,13 @@
             this.edge.AutoSize = true;
             this.edge.Depth = 0;
             this.edge.Font = new System.Drawing.Font("Roboto", 10F);
-            this.edge.Location = new System.Drawing.Point(331, 147);
+            this.edge.Location = new System.Drawing.Point(328, 147);
             this.edge.Margin = new System.Windows.Forms.Padding(0);
             this.edge.MouseLocation = new System.Drawing.Point(-1, -1);
             this.edge.MouseState = MaterialSkin.MouseState.HOVER;
             this.edge.Name = "edge";
             this.edge.Ripple = true;
-            this.edge.Size = new System.Drawing.Size(60, 30);
+            this.edge.Size = new System.Drawing.Size(63, 30);
             this.edge.TabIndex = 3;
             this.edge.Text = "Edge";
             this.edge.UseVisualStyleBackColor = true;
@@ -326,13 +326,13 @@
             this.google.AutoSize = true;
             this.google.Depth = 0;
             this.google.Font = new System.Drawing.Font("Roboto", 10F);
-            this.google.Location = new System.Drawing.Point(331, 108);
+            this.google.Location = new System.Drawing.Point(321, 108);
             this.google.Margin = new System.Windows.Forms.Padding(0);
             this.google.MouseLocation = new System.Drawing.Point(-1, -1);
             this.google.MouseState = MaterialSkin.MouseState.HOVER;
             this.google.Name = "google";
             this.google.Ripple = true;
-            this.google.Size = new System.Drawing.Size(125, 30);
+            this.google.Size = new System.Drawing.Size(135, 30);
             this.google.TabIndex = 2;
             this.google.Text = "Google Chrome";
             this.google.UseVisualStyleBackColor = true;
@@ -344,13 +344,13 @@
             this.yandex.AutoSize = true;
             this.yandex.Depth = 0;
             this.yandex.Font = new System.Drawing.Font("Roboto", 10F);
-            this.yandex.Location = new System.Drawing.Point(331, 69);
+            this.yandex.Location = new System.Drawing.Point(325, 69);
             this.yandex.Margin = new System.Windows.Forms.Padding(0);
             this.yandex.MouseLocation = new System.Drawing.Point(-1, -1);
             this.yandex.MouseState = MaterialSkin.MouseState.HOVER;
             this.yandex.Name = "yandex";
             this.yandex.Ripple = true;
-            this.yandex.Size = new System.Drawing.Size(74, 30);
+            this.yandex.Size = new System.Drawing.Size(80, 30);
             this.yandex.TabIndex = 1;
             this.yandex.Text = "Yandex";
             this.yandex.UseVisualStyleBackColor = true;
@@ -429,7 +429,7 @@
             this.clearText.MouseState = MaterialSkin.MouseState.HOVER;
             this.clearText.Name = "clearText";
             this.clearText.Primary = false;
-            this.clearText.Size = new System.Drawing.Size(94, 36);
+            this.clearText.Size = new System.Drawing.Size(102, 36);
             this.clearText.TabIndex = 2;
             this.clearText.Text = "очистить";
             this.clearText.UseVisualStyleBackColor = true;
@@ -447,7 +447,7 @@
             this.changeTTL.MouseState = MaterialSkin.MouseState.HOVER;
             this.changeTTL.Name = "changeTTL";
             this.changeTTL.Primary = false;
-            this.changeTTL.Size = new System.Drawing.Size(138, 36);
+            this.changeTTL.Size = new System.Drawing.Size(151, 36);
             this.changeTTL.TabIndex = 1;
             this.changeTTL.Text = "Установить TTL";
             this.changeTTL.UseVisualStyleBackColor = true;
@@ -465,7 +465,7 @@
             this.provTTL.MouseState = MaterialSkin.MouseState.HOVER;
             this.provTTL.Name = "provTTL";
             this.provTTL.Primary = false;
-            this.provTTL.Size = new System.Drawing.Size(128, 36);
+            this.provTTL.Size = new System.Drawing.Size(140, 36);
             this.provTTL.TabIndex = 0;
             this.provTTL.Text = "проверить TTL";
             this.provTTL.UseVisualStyleBackColor = true;
@@ -492,7 +492,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(299, 298);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 20);
+            this.label1.Size = new System.Drawing.Size(234, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "created by #eas1ly #tjgtll";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -538,7 +538,7 @@
             this.goSiteButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.goSiteButt.Name = "goSiteButt";
             this.goSiteButt.Primary = true;
-            this.goSiteButt.Size = new System.Drawing.Size(92, 36);
+            this.goSiteButt.Size = new System.Drawing.Size(100, 36);
             this.goSiteButt.TabIndex = 17;
             this.goSiteButt.Text = "Наш Сайт";
             this.goSiteButt.UseVisualStyleBackColor = true;
@@ -556,7 +556,7 @@
             this.updateButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.updateButt.Name = "updateButt";
             this.updateButt.Primary = true;
-            this.updateButt.Size = new System.Drawing.Size(195, 36);
+            this.updateButt.Size = new System.Drawing.Size(214, 36);
             this.updateButt.TabIndex = 16;
             this.updateButt.Text = "Проверить обновление";
             this.updateButt.UseVisualStyleBackColor = true;
@@ -572,7 +572,7 @@
             this.goVkButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.goVkButt.Name = "goVkButt";
             this.goVkButt.Primary = true;
-            this.goVkButt.Size = new System.Drawing.Size(128, 36);
+            this.goVkButt.Size = new System.Drawing.Size(139, 36);
             this.goVkButt.TabIndex = 15;
             this.goVkButt.Text = "Мы Вконтакте";
             this.goVkButt.UseVisualStyleBackColor = true;
@@ -582,18 +582,18 @@
             // defThemeButt
             // 
             this.defThemeButt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.defThemeButt.AutoSize = true;
             this.defThemeButt.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.defThemeButt.Depth = 0;
             this.defThemeButt.Icon = null;
-            this.defThemeButt.Location = new System.Drawing.Point(292, 190);
+            this.defThemeButt.Location = new System.Drawing.Point(283, 191);
             this.defThemeButt.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.defThemeButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.defThemeButt.Name = "defThemeButt";
             this.defThemeButt.Primary = false;
-            this.defThemeButt.Size = new System.Drawing.Size(211, 36);
+            this.defThemeButt.Size = new System.Drawing.Size(242, 36);
             this.defThemeButt.TabIndex = 12;
             this.defThemeButt.Text = "Вернуть настройки темы";
+            this.defThemeButt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.defThemeButt.UseVisualStyleBackColor = true;
             this.defThemeButt.Visible = false;
             this.defThemeButt.Click += new System.EventHandler(this.defThemeButt_Click);
@@ -601,18 +601,18 @@
             // greenThemeButt
             // 
             this.greenThemeButt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.greenThemeButt.AutoSize = true;
             this.greenThemeButt.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.greenThemeButt.Depth = 0;
             this.greenThemeButt.Icon = null;
-            this.greenThemeButt.Location = new System.Drawing.Point(292, 142);
+            this.greenThemeButt.Location = new System.Drawing.Point(283, 143);
             this.greenThemeButt.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.greenThemeButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.greenThemeButt.Name = "greenThemeButt";
             this.greenThemeButt.Primary = false;
-            this.greenThemeButt.Size = new System.Drawing.Size(219, 36);
+            this.greenThemeButt.Size = new System.Drawing.Size(242, 36);
             this.greenThemeButt.TabIndex = 11;
             this.greenThemeButt.Text = "Установить зелёную тему";
+            this.greenThemeButt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.greenThemeButt.UseVisualStyleBackColor = true;
             this.greenThemeButt.Visible = false;
             this.greenThemeButt.Click += new System.EventHandler(this.greenThemeButt_Click);
@@ -620,18 +620,18 @@
             // redThemeButt
             // 
             this.redThemeButt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.redThemeButt.AutoSize = true;
             this.redThemeButt.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.redThemeButt.Depth = 0;
             this.redThemeButt.Icon = null;
-            this.redThemeButt.Location = new System.Drawing.Point(294, 94);
+            this.redThemeButt.Location = new System.Drawing.Point(283, 95);
             this.redThemeButt.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.redThemeButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.redThemeButt.Name = "redThemeButt";
             this.redThemeButt.Primary = false;
-            this.redThemeButt.Size = new System.Drawing.Size(221, 36);
+            this.redThemeButt.Size = new System.Drawing.Size(242, 36);
             this.redThemeButt.TabIndex = 10;
             this.redThemeButt.Text = "Установить красную тему";
+            this.redThemeButt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.redThemeButt.UseVisualStyleBackColor = true;
             this.redThemeButt.Visible = false;
             this.redThemeButt.Click += new System.EventHandler(this.redThemeButt_Click);
@@ -639,18 +639,18 @@
             // darkTemeButt
             // 
             this.darkTemeButt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.darkTemeButt.AutoSize = true;
             this.darkTemeButt.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.darkTemeButt.Depth = 0;
             this.darkTemeButt.Icon = null;
-            this.darkTemeButt.Location = new System.Drawing.Point(292, 53);
+            this.darkTemeButt.Location = new System.Drawing.Point(283, 47);
             this.darkTemeButt.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.darkTemeButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.darkTemeButt.Name = "darkTemeButt";
             this.darkTemeButt.Primary = false;
-            this.darkTemeButt.Size = new System.Drawing.Size(213, 36);
+            this.darkTemeButt.Size = new System.Drawing.Size(242, 36);
             this.darkTemeButt.TabIndex = 9;
             this.darkTemeButt.Text = "Установить тёмную тему";
+            this.darkTemeButt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.darkTemeButt.UseVisualStyleBackColor = true;
             this.darkTemeButt.Visible = false;
             this.darkTemeButt.Click += new System.EventHandler(this.darkTemeButt_Click);
@@ -666,7 +666,7 @@
             this.teamChangeButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.teamChangeButt.Name = "teamChangeButt";
             this.teamChangeButt.Primary = true;
-            this.teamChangeButt.Size = new System.Drawing.Size(147, 36);
+            this.teamChangeButt.Size = new System.Drawing.Size(161, 36);
             this.teamChangeButt.TabIndex = 8;
             this.teamChangeButt.Text = "Настройки темы";
             this.teamChangeButt.UseVisualStyleBackColor = true;
@@ -682,7 +682,7 @@
             this.helpButt.MouseState = MaterialSkin.MouseState.HOVER;
             this.helpButt.Name = "helpButt";
             this.helpButt.Primary = true;
-            this.helpButt.Size = new System.Drawing.Size(109, 36);
+            this.helpButt.Size = new System.Drawing.Size(118, 36);
             this.helpButt.TabIndex = 7;
             this.helpButt.Text = "Поддержка";
             this.helpButt.UseVisualStyleBackColor = true;
@@ -709,7 +709,7 @@
             this.lblNowVer.ForeColor = System.Drawing.Color.White;
             this.lblNowVer.Location = new System.Drawing.Point(468, 34);
             this.lblNowVer.Name = "lblNowVer";
-            this.lblNowVer.Size = new System.Drawing.Size(63, 19);
+            this.lblNowVer.Size = new System.Drawing.Size(71, 22);
             this.lblNowVer.TabIndex = 4;
             this.lblNowVer.Text = "version";
             // 
@@ -724,7 +724,7 @@
             this.выходToolStripMenuItem});
             this.materialContextMenuStrip1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialContextMenuStrip1.Name = "materialContextMenuStrip1";
-            this.materialContextMenuStrip1.Size = new System.Drawing.Size(134, 70);
+            this.materialContextMenuStrip1.Size = new System.Drawing.Size(146, 76);
             // 
             // ссылкиToolStripMenuItem
             // 
@@ -732,20 +732,20 @@
             this.вКонтактеToolStripMenuItem,
             this.сайтToolStripMenuItem});
             this.ссылкиToolStripMenuItem.Name = "ссылкиToolStripMenuItem";
-            this.ссылкиToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.ссылкиToolStripMenuItem.Size = new System.Drawing.Size(145, 24);
             this.ссылкиToolStripMenuItem.Text = "Ссылки";
             // 
             // вКонтактеToolStripMenuItem
             // 
             this.вКонтактеToolStripMenuItem.Name = "вКонтактеToolStripMenuItem";
-            this.вКонтактеToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.вКонтактеToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
             this.вКонтактеToolStripMenuItem.Text = "ВКонтакте";
             this.вКонтактеToolStripMenuItem.Click += new System.EventHandler(this.вКонтактеToolStripMenuItem_Click);
             // 
             // сайтToolStripMenuItem
             // 
             this.сайтToolStripMenuItem.Name = "сайтToolStripMenuItem";
-            this.сайтToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.сайтToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
             this.сайтToolStripMenuItem.Text = "Сайт";
             this.сайтToolStripMenuItem.Click += new System.EventHandler(this.сайтToolStripMenuItem_Click);
             // 
@@ -757,41 +757,41 @@
             this.информацияToolStripMenuItem,
             this.настройкиToolStripMenuItem});
             this.навигацияToolStripMenuItem.Name = "навигацияToolStripMenuItem";
-            this.навигацияToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.навигацияToolStripMenuItem.Size = new System.Drawing.Size(145, 24);
             this.навигацияToolStripMenuItem.Text = "Навигация";
             // 
             // очисткаToolStripMenuItem
             // 
             this.очисткаToolStripMenuItem.Name = "очисткаToolStripMenuItem";
-            this.очисткаToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.очисткаToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
             this.очисткаToolStripMenuItem.Text = "Очистка";
             this.очисткаToolStripMenuItem.Click += new System.EventHandler(this.очисткаToolStripMenuItem_Click);
             // 
             // мТСToolStripMenuItem
             // 
             this.мТСToolStripMenuItem.Name = "мТСToolStripMenuItem";
-            this.мТСToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.мТСToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
             this.мТСToolStripMenuItem.Text = "МТС";
             this.мТСToolStripMenuItem.Click += new System.EventHandler(this.мТСToolStripMenuItem_Click);
             // 
             // информацияToolStripMenuItem
             // 
             this.информацияToolStripMenuItem.Name = "информацияToolStripMenuItem";
-            this.информацияToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.информацияToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
             this.информацияToolStripMenuItem.Text = "Информация";
             this.информацияToolStripMenuItem.Click += new System.EventHandler(this.информацияToolStripMenuItem_Click);
             // 
             // настройкиToolStripMenuItem
             // 
             this.настройкиToolStripMenuItem.Name = "настройкиToolStripMenuItem";
-            this.настройкиToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.настройкиToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
             this.настройкиToolStripMenuItem.Text = "Настройки";
             this.настройкиToolStripMenuItem.Click += new System.EventHandler(this.настройкиToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(145, 24);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -804,7 +804,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(92, 34);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(353, 19);
+            this.label2.Size = new System.Drawing.Size(405, 22);
             this.label2.TabIndex = 18;
             this.label2.Text = "IndigoSoftware - Лучшее для вашего Ноутбука";
             // 
