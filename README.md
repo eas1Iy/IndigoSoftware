@@ -1,4 +1,36 @@
 # IndigoSoftware SOURCE
-(c) eas1ly
+language: c#
 
-Cola down :)
+namespace: IndigoSoftware
+
+site: https://indigo-software.at.ua/
+
+vk: https://vk.com/indigo.laptop
+
+
+
+project status: OBT (Open Beta Testing)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(c) eas1ly && tjgtll
