@@ -191,11 +191,11 @@ namespace regedit
             }
             try
             {
-                RegistryKey Tcpip6 = Registry.LocalMachine.CreateSubKey("SYSTEM\\CurrentControlSet\\Services\\Tcpip6");
+                RegistryKey Tcpip6 = Registry.LocalMachine.CreateSubKey("SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters");
                 Tcpip6.SetValue(defttl, defttlnum);
                 Tcpip6.Close();
                 //
-                RegistryKey Tcpip = Registry.LocalMachine.CreateSubKey("SYSTEM\\CurrentControlSet\\Services\\Tcpip");
+                RegistryKey Tcpip = Registry.LocalMachine.CreateSubKey("SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters");
                 Tcpip.SetValue(defttl, defttlnum);
                 Tcpip.Close();
             }
@@ -207,8 +207,8 @@ namespace regedit
             //
             // Заносим данные в label1 о успехе :)
             text.Text = "Обновленны следующие значения: \n" +
-                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip ;\n Установлено DefaultTTL = 65 \n" +
-                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6 ;\n Установлено DefaultTTL = 65" +
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters ;\n Установлено DefaultTTL = 65 \n" +
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters ;\n Установлено DefaultTTL = 65" +
                 "\n\nВсё прошло успешно. \n\nВНИМАНИЕ! Вам необходимо перезагрузить ноутбук для того чтобы изменения пришли в силу.";
             changeBarr.Value = 0;
             changeTTL.Enabled = true;
