@@ -54,7 +54,6 @@
             this.changeTTL = new MaterialSkin.Controls.MaterialFlatButton();
             this.provTTL = new MaterialSkin.Controls.MaterialFlatButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
             this.infoLbl = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.goSiteButt = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -80,6 +79,7 @@
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.logo = new System.Windows.Forms.PictureBox();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl1.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -480,7 +480,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.White;
-            this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Controls.Add(this.materialLabel1);
             this.tabPage2.Controls.Add(this.infoLbl);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -488,20 +488,6 @@
             this.tabPage2.Size = new System.Drawing.Size(536, 346);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Информация";
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(299, 298);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "created by #eas1ly #tjgtll";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // infoLbl
             // 
@@ -819,13 +805,25 @@
             // 
             this.logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.logo.BackColor = System.Drawing.Color.Transparent;
-            this.logo.Image = global::IndigoSoftware.Properties.Resources.backImage;
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
             this.logo.Location = new System.Drawing.Point(-16, 190);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(162, 121);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo.TabIndex = 18;
             this.logo.TabStop = false;
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.Location = new System.Drawing.Point(336, 301);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(194, 19);
+            this.materialLabel1.TabIndex = 1;
+            this.materialLabel1.Text = "created by #eas1ly && #tjgtll";
             // 
             // mainForm
             // 
@@ -851,7 +849,6 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.materialContextMenuStrip1.ResumeLayout(false);
@@ -875,7 +872,6 @@
         private MaterialSkin.Controls.MaterialProgressBar provBarr;
         private MaterialSkin.Controls.MaterialProgressBar clearBarr;
         private MaterialSkin.Controls.MaterialProgressBar changeBarr;
-        private System.Windows.Forms.Label label1;
         private MaterialSkin.Controls.MaterialRadioButton edge;
         private MaterialSkin.Controls.MaterialRadioButton google;
         private MaterialSkin.Controls.MaterialRadioButton yandex;
@@ -914,6 +910,7 @@
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox logo;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
     }
 }
 

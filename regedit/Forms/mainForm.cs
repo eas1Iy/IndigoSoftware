@@ -113,7 +113,7 @@ namespace regedit
             if (Registry.GetValue(keyName, valueName, null) == null || Registry.GetValue(keyName2, valueName, null) == null)
             {
                 //что будет если нет таких записей
-                MaterialMessageBox.Show("Внимание!\nУ вас отсутсвует DefaultTTL в одной из дирректорий.\nНажмите Установить TTL", namepro + " - Ошибка", MessageBoxButtons.OK);
+                MaterialMessageBox.Show("Внимание!\nУ вас отсутсвует DefaultTTL в одной из дирректорий.\nНажмите 'Установить TTL'.\nЧтобы избежать снятия баланса за раздачу интернета.", namepro + " - Ошибка", MessageBoxButtons.OK);
             }
             else
             {
@@ -133,13 +133,13 @@ namespace regedit
                     {
                         text.Text = "Обнаружены значения TTL:\nДиректория Tcpip6 = " + loadString +
                                                             "\nДиректория Tcpip = " + loadString2 +
-                                                            "\n У вас с TTL всё хорошо, шанс снятия денег минимальный!";
+                                                            "\nTTL Статус - Впорядке, шанс снятия денег за раздачу минимальный. Спасибо что пользуетесь нашим ПО.";
                     }
                     else if (Convert.ToInt32(loadString) == 64 || Convert.ToInt32(loadString2) == 64)
                     {
                         text.Text = "Обнаружены значения TTL:\nДиректория Tcpip6 = " + loadString +
                                                             "\nДиректория Tcpip = " + loadString2 +
-                                                            "\n Данные необходимо заменить, ибо возможно снятие баланса.";
+                                                            "\nTTL Статус - Плохое, шанс снятия денег за раздачу очень высокий, необходимо нажать 'Установить TTL'.";
                     }
                     else
                     {
@@ -207,8 +207,8 @@ namespace regedit
             //
             // Заносим данные в label1 о успехе :)
             text.Text = "Обновленны следующие значения: \n" +
-                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters ;\n Установлено DefaultTTL = 65 \n" +
-                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters ;\n Установлено DefaultTTL = 65" +
+                "LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters ; - Установлено DefaultTTL = 65 \n" +
+                "LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters ; - Установлено DefaultTTL = 65" +
                 "\n\nВсё прошло успешно. \n\nВНИМАНИЕ! Вам необходимо перезагрузить ноутбук для того чтобы изменения пришли в силу.";
             changeBarr.Value = 0;
             changeTTL.Enabled = true;

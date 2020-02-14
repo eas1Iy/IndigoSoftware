@@ -113,9 +113,49 @@ namespace IndigoSoftware.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap siteIconGREEN {
+            get {
+                object obj = ResourceManager.GetObject("siteIconGREEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap siteIconRED {
+            get {
+                object obj = ResourceManager.GetObject("siteIconRED", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vkIcon {
             get {
                 object obj = ResourceManager.GetObject("vkIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vkIconGREEN {
+            get {
+                object obj = ResourceManager.GetObject("vkIconGREEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vkIconRED {
+            get {
+                object obj = ResourceManager.GetObject("vkIconRED", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

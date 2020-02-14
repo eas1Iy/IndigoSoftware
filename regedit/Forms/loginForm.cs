@@ -23,6 +23,7 @@ namespace IndigoSoftware.Forms
         //
         private readonly MaterialSkinManager materialSkinManager; // переменная для скина
         mainForm fav = new mainForm(); // fav. использование функций со следующей формы
+        string color = Settings.Default["color"].ToString();
         //
 
         public loginForm()
@@ -44,6 +45,21 @@ namespace IndigoSoftware.Forms
             mainForm nextForm = new mainForm();
             // 
             nextForm.regeditPO_Load(sender, e);
+            if (color == "DEFAULT")
+            {
+                siteLogo.Image = global::IndigoSoftware.Properties.Resources.siteIcon;
+                vkLogo.Image = global::IndigoSoftware.Properties.Resources.vkIcon;
+            }
+            else if (color == "RED")
+            {
+                siteLogo.Image = global::IndigoSoftware.Properties.Resources.siteIconRED;
+                vkLogo.Image = global::IndigoSoftware.Properties.Resources.vkIconRED;
+            }
+            else if (color == "GREEN")
+            {
+                siteLogo.Image = global::IndigoSoftware.Properties.Resources.siteIconGREEN;
+                vkLogo.Image = global::IndigoSoftware.Properties.Resources.vkIconGREEN;
+            }
         }
 
         void materialFlatButton1_Click(object sender, EventArgs e) // кнопка Продолжить

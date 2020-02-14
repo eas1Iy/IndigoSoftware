@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(loginForm));
             this.nextButt = new MaterialSkin.Controls.MaterialFlatButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.vkLogo = new System.Windows.Forms.PictureBox();
+            this.siteLogo = new System.Windows.Forms.PictureBox();
             this.oznRadBut = new MaterialSkin.Controls.MaterialRadioButton();
             this.infLlb1 = new MaterialSkin.Controls.MaterialLabel();
             this.versionLbl = new MaterialSkin.Controls.MaterialLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vkLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siteLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // nextButt
@@ -56,31 +56,31 @@
             this.nextButt.UseVisualStyleBackColor = true;
             this.nextButt.Click += new System.EventHandler(this.materialFlatButton1_Click);
             // 
-            // pictureBox1
+            // vkLogo
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::IndigoSoftware.Properties.Resources.vkIcon;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 288);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(114, 92);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
+            this.vkLogo.BackColor = System.Drawing.Color.Transparent;
+            this.vkLogo.Image = ((System.Drawing.Image)(resources.GetObject("vkLogo.Image")));
+            this.vkLogo.Location = new System.Drawing.Point(12, 288);
+            this.vkLogo.Name = "vkLogo";
+            this.vkLogo.Size = new System.Drawing.Size(114, 92);
+            this.vkLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.vkLogo.TabIndex = 1;
+            this.vkLogo.TabStop = false;
+            this.vkLogo.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.vkLogo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             // 
-            // pictureBox2
+            // siteLogo
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::IndigoSoftware.Properties.Resources.siteIcon;
-            this.pictureBox2.Location = new System.Drawing.Point(244, 288);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(114, 92);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseMove);
+            this.siteLogo.BackColor = System.Drawing.Color.Transparent;
+            this.siteLogo.Image = ((System.Drawing.Image)(resources.GetObject("siteLogo.Image")));
+            this.siteLogo.Location = new System.Drawing.Point(244, 288);
+            this.siteLogo.Name = "siteLogo";
+            this.siteLogo.Size = new System.Drawing.Size(114, 92);
+            this.siteLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siteLogo.TabIndex = 2;
+            this.siteLogo.TabStop = false;
+            this.siteLogo.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.siteLogo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseMove);
             // 
             // oznRadBut
             // 
@@ -132,8 +132,8 @@
             this.Controls.Add(this.versionLbl);
             this.Controls.Add(this.infLlb1);
             this.Controls.Add(this.oznRadBut);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.siteLogo);
+            this.Controls.Add(this.vkLogo);
             this.Controls.Add(this.nextButt);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -144,8 +144,8 @@
             this.Text = "                          IndigoSoftware";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.loginForm_FormClosed);
             this.Load += new System.EventHandler(this.loginForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vkLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siteLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,8 +154,8 @@
         #endregion
 
         private MaterialSkin.Controls.MaterialFlatButton nextButt;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox vkLogo;
+        private System.Windows.Forms.PictureBox siteLogo;
         private MaterialSkin.Controls.MaterialRadioButton oznRadBut;
         private MaterialSkin.Controls.MaterialLabel infLlb1;
         private MaterialSkin.Controls.MaterialLabel versionLbl;

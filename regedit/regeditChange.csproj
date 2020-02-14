@@ -159,14 +159,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\vkIconRED.png" />
+    <None Include="Resources\vkIconGREEN.png" />
+    <None Include="Resources\vkIcon.png" />
+    <None Include="Resources\siteIconRED.png" />
+    <None Include="Resources\siteIconGREEN.png" />
+    <None Include="Resources\siteIcon.png" />
     <None Include="Resources\backImage.png" />
     <None Include="Resources\backImageRED.png" />
     <None Include="Resources\backImageGREEN.png" />
     <Content Include="Resources\ez.ico" />
     <Content Include="Resources\icon.ico" />
     <None Include="Resources\icon.png" />
-    <None Include="Resources\siteIcon.png" />
-    <None Include="Resources\vkIcon.png" />
     <None Include="Resources\VK-logo.png" />
   </ItemGroup>
   <ItemGroup>
