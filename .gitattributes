@@ -1,10 +1,10 @@
 ###############################################################################
-# Set default behavior to automatically normalize line endings.
+# Установить поведение по умолчанию для автоматической нормализации концов строк.
 ###############################################################################
 * text=auto
 
 ###############################################################################
-# Set default behavior for command prompt diff.
+# Установить поведение по умолчанию для командной строки diff.
 #
 # This is need for earlier builds of msysgit that does not have it on by
 # default for csharp files.
