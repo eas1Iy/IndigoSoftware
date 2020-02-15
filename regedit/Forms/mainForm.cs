@@ -149,7 +149,7 @@ namespace regedit
                 }
                 catch (Exception ex)
                 {
-                    MaterialMessageBox.Show(ex.ToString(), namepro + "- Ошибка", MessageBoxButtons.OK);
+                    MaterialMessageBox.Show(ex.Message, namepro + "- Ошибка", MessageBoxButtons.OK);
                     return;
                 }
                 provBarr.Value = 0;
@@ -201,7 +201,7 @@ namespace regedit
             }
             catch (Exception ex)
             {
-                MaterialMessageBox.Show(ex.ToString(), namepro + " - Ошибка", MessageBoxButtons.OK);
+                MaterialMessageBox.Show(ex.Message, namepro + " - Ошибка", MessageBoxButtons.OK);
                 return;
             }
             //
