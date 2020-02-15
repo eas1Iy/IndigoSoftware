@@ -3,17 +3,17 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# User-specific files
+# Пользовательские файлы
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# User-specific files (MonoDevelop/Xamarin Studio)
+# Пользовательские файлы (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-# Build results
+# Результаты сборки
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -29,13 +29,13 @@ bld/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
-# Uncomment if you have tasks that create the project's static files in wwwroot
+# Раскомментируйте, если у вас есть задачи, которые создают статические файлы проекта в wwwroot
 #wwwroot/
 
-# Visual Studio 2017 auto generated files
+# Visual Studio 2017 автоматически сгенерированные файлы
 Generated\ Files/
 
-# MSTest test Results
+# MSTest результаты теста
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
@@ -59,7 +59,7 @@ artifacts/
 # StyleCop
 StyleCopReport.xml
 
-# Files built by Visual Studio
+# Файлы, созданные Visual Studio
 *_i.c
 *_p.c
 *_h.h
@@ -88,10 +88,10 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
-# Chutzpah Test files
+# Тестовые файлы Chutzpah
 _Chutzpah*
 
-# Visual C++ cache files
+# Visual C++ кэш файлы
 ipch/
 *.aps
 *.ncb
