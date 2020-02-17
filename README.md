@@ -12,7 +12,6 @@ vk: https://vk.com/indigo.laptop
 project status: OBT (Open Beta Testing)
 
 
-Read the lichka daun ebani, ia tvoi glaza ipal
 
 
 
