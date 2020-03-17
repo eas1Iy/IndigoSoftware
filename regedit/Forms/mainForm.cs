@@ -716,11 +716,6 @@ namespace regedit
             materialTabControl1.SelectedIndex = 1;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         void информацияToolStripMenuItem_Click(object sender, EventArgs e) // Пкм в Информацию               
         {
             materialTabControl1.SelectedIndex = 2;
