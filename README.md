@@ -3,37 +3,8 @@ language: c#
 
 namespace: IndigoSoftware
 
-site: https://indigo-software.at.ua/
-
 vk: https://vk.com/indigo.laptop
 
+project status: Closed.
 
-
-project status: OBT (Open Beta Testing)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(c) eas1ly && tjgtll
+**(c) eas1ly && tjgtll**
